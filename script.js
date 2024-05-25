@@ -26,6 +26,16 @@ const questions = [
       { text: "Object Oriented Programming language", correct: false },
     ],
   },
+  {
+    question: "What does SCSS stands for?",
+    answers: [
+      { text: "Hypertext Markup Language", correct: false },
+      { text: "Cascading Style Sheet", correct: false },
+      { text: "Jason Object Notation", correct: false },
+      { text: "Sassy Cascading Style Sheets", correct: true },
+    ],
+  }
+  
 ];
 
 const questionElement = document.getElementById("question");
